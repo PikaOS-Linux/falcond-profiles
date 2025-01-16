@@ -1,8 +1,18 @@
 # falcond-profiles
 
-All profiles are in /usr/share/falcond/profiles as .conf files
+All profiles are located in `/usr/share/falcond/profiles` as `.conf` files. The profiles are organized in device-specific subfolders:
 
-Examples of the format is as follows:
+- `handheld/`: Profiles optimized for handheld devices
+- `htpc/`: Profiles optimized for Home Theater PCs
+- Root directory: Default profiles that can be used when no profile mode is specified
+
+## Configuration Files
+
+### System Configuration
+The `system.conf` file contains a list of proton system processes to be ignored by falcond.
+
+### Game/Application Profiles
+Examples of profile configurations:
 
 ```
 name = "cs2"
